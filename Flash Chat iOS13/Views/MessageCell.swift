@@ -1,15 +1,11 @@
-//
-//  MessageCell.swift
-//  Flash Chat iOS13
-//
-//  Created by jihunpark on 11/4/20.
-//  Copyright © 2020 Jihun. All rights reserved.
-//
-
 import UIKit
 
 class MessageCell: UITableViewCell {
 
+    @IBOutlet weak var messageBubble: UIView!
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var rightImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
